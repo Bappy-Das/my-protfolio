@@ -2,9 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.portfolio-banner{
+section{
     display: flex;
+    margin-bottom: 100px;
+}
+.portfolio-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
 }
 h1{
     font-size: 50px;
@@ -17,7 +22,8 @@ h1 span{
     padding-left: 5%;
 }
 .half-banner img{
-    width: 80%;
+    width: 100%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +32,10 @@ h1 span{
     border-radius: 5px;
     color:white;
     font-weight: 700;
+}
+
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
